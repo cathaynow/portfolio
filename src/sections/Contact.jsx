@@ -36,7 +36,7 @@ const Contact = () => {
             }, "cKJYjmqInXsKPGkBg")
             setIsLoading(false);
             setFormData({name: "", email: "", message: ""});
-            setAlertMessage("success", "You message has been sent!")
+            showAlertMessage("success", "Your message has been sent!")
 
         } catch (error) {
             setIsLoading(false);
